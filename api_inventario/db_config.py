@@ -4,6 +4,6 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="usuario",
-        password="password",
+        password="password", 
         database="inventario_api"
     )
